@@ -18,8 +18,9 @@
     "default_icon": "icons/icon-48.png",
     "default_title": "Wishlist Extension"
   },
-  "background": {
-    "service_worker": "background/background.js"
+"background": {
+  "scripts": ["background.js"]
+}
   },
   "content_scripts": [
     {
